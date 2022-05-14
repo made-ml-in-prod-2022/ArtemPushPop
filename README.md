@@ -2,18 +2,13 @@
 Project structure:
 ```
 ml_project/
-├── artifacts   <--- possible main artifacts storage
 ├── configs     <--- Hydra configs 
 ├── data        <--- datasets, data management
-├── docs        <--- documentation
 ├── eval.py     <--- evaluation script
 ├── features    <--- feature processing and extruction
-├── metrics     <--- possible main metrics storage
 ├── models      <--- model utils
 ├── notebooks   <--- notebooks research
 ├── pipeline.py <--- training script
-├── settings    <--- possible global project settings
-├── testing     <--- tests folder
 └── utils       <--- project utils folder
 ```
 
