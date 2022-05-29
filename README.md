@@ -1,5 +1,21 @@
 # ML_production_IZ2
 
+## _Building your own image_
+For building oun image of online inference for model one need to clone this branch of repository and build docker image from dockerfile. This can be done with next commands:
+
+```
+cd </path/to/your/directory>
+git clone https://github.com/made-ml-in-prod-2022/ArtemPushPop.git --branch homework_2 --single-branch
+cd ArtemPushPop/online_inference/
+sudo docker build -t <name of your image> .
+```
+
+To run container from recently build image run:
+
+```
+docker run -dp 8000:8000 --rm <name of your image>
+```
+
 ## _Loading docker inference image_
 
 This part of homework and this branch of repository is dedicated for development of online inference of model, trained in previous homework. Solution to this task is docker image of uvicorn server, hosted on docker hub. In order to run the server on your local machine, one need to do next steps:
