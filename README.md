@@ -1,3 +1,6 @@
-# ML_production_IZ1
+# ML_production_IZ3
 
-This repository will contain solutions to tasks of "ML in production" subject 
+to properly run and experience airflow, execute:
+```
+sudo docker-compose up --build
+```
