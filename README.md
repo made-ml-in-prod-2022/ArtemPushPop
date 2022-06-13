@@ -1,3 +1,3 @@
-# ML_production_IZ1
+# ML_production_IZ4
 
-This repository will contain solutions to tasks of "ML in production" subject 
+Работа с K8S.
